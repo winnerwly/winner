@@ -1,0 +1,21 @@
+1.安装cnpm
+2.安装vue的全局环境  cnpm install -g vue-cli
+3.初始化vue的环境 vue init webpack my-project
+
+
+vue对象:
+data:用于存放数据
+methods:用于存放函数/方法
+watch:监听数据--当数据改变是执行的函数/方法
+
+模板指令:
+v-text:仅接受文本类型的数据
+v-html:能够接受HTML格式的数据
+{{}}:接受的是数据原理的数据
+
+v-if:直接隐藏DOM元素
+v-show:通过修改元素样式的display为none来隐藏元素
+v-for:循环遍历 item in items
+
+v-on:事件绑定 可简写为'@' <button @click='daThis'></button>===<button v-on:click='daThis'></button>
+v-bind:属性绑定 可简写为':'
